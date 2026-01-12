@@ -1,14 +1,14 @@
 # CO2 Emissions Prediction Using OLS Regression
 
 ## Overview
-Predict CO2 emissions using energy, economic, and activity-based indicators with an emphasis on **generalization, interpretability, and statistical rigor**.
+Predict CO2 emissions using population and energy generation factors with an emphasis on **generalization, interpretability, and statistical rigor**.
 
 This project demonstrates how classical linear regression can be used in a machine-learning pipeline to produce explainable environmental forecasts while maintaining strong out-of-sample performance.
 
 ## Data
-- Source: Public CO2 and energy datasets (e.g., World Bank / energy statistics)
+- Source: Public CO2 and energy datasets (C02 emissions by state: https://www.eia.gov/environment/emissions/state/analysis/ and Electricity Data Browser: https://www.eia.gov/electricity/data/browser)
 - Target: CO2 emissions
-- Features: Energy usage, production, economic indicators, and activity metrics
+- Features: State net electricity energy generation and population
 
 ## Modeling Approach
 - Ordinary Least Squares (OLS) Regression
@@ -33,7 +33,7 @@ This approach preserves model interpretability while ensuring out-of-sample reli
 - Interpretability: Coefficients remain directly interpretable, allowing clear insight into how energy and activity variables drive emissions.
 
 ## Key Takeaways
-- Energy consumption variables are the strongest drivers of CO2 output
+- Energy generation variables are the strongest drivers of CO2 output
 - Log transformations significantly improved linearity and homoscedasticity
 - Feature selection via statistical tests enhanced both interpretability and model stability
 - The model is designed as an **explainable forecasting tool** rather than a black-box predictor, making it suitable for environmental analysis and policy-oriented decision support

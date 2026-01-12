@@ -5,13 +5,13 @@
 ### Model Details
 - **Model Type**: Regression (Ordinary Least Squares)
 - **Version**: 1.0
-- **Date**: October 2025
+- **Date**: December 2024
 - **Developers**: Lillian Elek
 - **License**: MIT (Educational/Non-commercial)
 - **Framework**: statsmodels + scikit-learn
 
 ### Intended Use
-- **Primary Use**: State-level CO₂ emissions prediction and policy analysis
+- **Primary Use**: State-level CO₂ emissions prediction analysis
 - **Primary Users**: Environmental scientists, policy analysts, energy planners, data scientists
 - **Out-of-Scope Uses**: 
   - ❌ Precise facility-level emissions (model is state-aggregated)
@@ -20,7 +20,7 @@
   - ❌ Regulatory compliance (not certified for official reporting)
 
 ### Training Data
-- **Source**: National Renewable Energy Laboratory (NREL) - Energy Generation by State and Technology (2009)
+- **Sources**: [Net Electricity Generation](https://www.eia.gov/electricity/data/browser/) | [Energy-Related Carbon Dioxide Emissions by State, 2005-2016](https://www.eia.gov/environment/emissions/state/analysis/) | [Population](https://www.census.gov/)
 - **Size**: 50 U.S. states (40 train, 10 test after 80/20 split)
 - **Time Period**: 2009 (single year snapshot)
 - **Geographic Coverage**: All 50 U.S. states
@@ -82,5 +82,6 @@
 - **Validate**: Against independent emissions datasets (EPA, EIA)
 
 ### References
-- National Renewable Energy Laboratory. (2014). Energy Generation by State and Technology (2009) [data set]. Retrieved from https://data.openei.org/submissions/249
-- EIA Form 923 (source of generation data)
+- [Net Electricity Generation](https://www.eia.gov/electricity/data/browser/) 
+- [Energy-Related Carbon Dioxide Emissions by State, 2005-2016](https://www.eia.gov/environment/emissions/state/analysis/) 
+- [Population](https://www.census.gov/)
