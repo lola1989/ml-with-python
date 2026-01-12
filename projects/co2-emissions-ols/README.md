@@ -6,7 +6,10 @@ Predict CO2 emissions using population and energy generation factors with an emp
 This project demonstrates how classical linear regression can be used in a machine-learning pipeline to produce explainable environmental forecasts while maintaining strong out-of-sample performance.
 
 ## Data
-- Source: Public CO2 and energy datasets (C02 emissions by state: https://www.eia.gov/environment/emissions/state/analysis/ and Electricity Data Browser: https://www.eia.gov/electricity/data/browser)
+- Sources: 
+    - [Net Electricity Generation](https://www.eia.gov/electricity/data/browser/) 
+    - [Energy-Related Carbon Dioxide Emissions by State, 2005-2016](https://www.eia.gov/environment/emissions/state/analysis/) 
+    - [Population](https://www.census.gov/)
 - Target: CO2 emissions
 - Features: State net electricity energy generation and population
 
