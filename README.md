@@ -17,7 +17,7 @@ and reproducible analysis.
 
 | Project | Model Type | Focus | Highlights |
 |---------|-----------|-------|-----------|
-| [NIH Chest X-ray Classifier](projects/nih-chest-xray) | Deep Learning (DenseNet121) | Medical AI & Computer Vision | Multi-label classification, transfer learning, GradCAM interpretability |
+| [NIH Chest X-ray Classifier](projects/nih_chest_xray) | Deep Learning (DenseNet121) | Medical AI & Computer Vision | Multi-label classification, transfer learning, GradCAM interpretability |
 | [Stroke Prediction](projects/stroke-prediction-logistic-regression) | Logistic Regression | Healthcare ML & Data Science | Class imbalance, recall optimization, clinical screening |
 | [CO₂ Emissions (2009)](projects/co2-emissions-ols) | OLS Regression | Climate Analytics & Data Science | Assumption checks, log transforms, feature selection |
 | [Weather ML](projects/weather-ml) | Classification + Regression | Category Modeling | Multi-model comparison |
