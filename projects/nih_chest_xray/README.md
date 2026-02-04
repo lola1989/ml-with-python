@@ -32,7 +32,7 @@ This project develops a multi-label classification model to identify 14 differen
 - **Modification:** Replaced final classifier layer with 14-output layer
 - **Loss Function:** Weighted Binary Cross-Entropy (to handle class imbalance)
 - **Optimizer:** Adam (learning rate = 0.0001)
-- **Training:** Early stopping with patience of 5 epochs
+- **Training:** Early stopping with patience of 15 epochs
 
 ### 3. Evaluation Metrics
 - **AUC-ROC:** Measures discrimination ability across all thresholds
