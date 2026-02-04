@@ -5,19 +5,20 @@ implemented in Python, focused on interpretability, real-world decision making,
 and reproducible analysis.
 
 ## Tools & Techniques
-- Python (pandas, numpy, scikit-learn, statsmodels)
-- Linear & Logistic Regression
-- Cluster Analysis
-- Training and Testing
-- Classification & Evaluation Metrics
-- Feature Engineering & Model Assumptions
-- Model Validation & Threshold Optimization
+- **Core ML Libraries:** Python (pandas, numpy, scikit-learn, statsmodels)
+- **Deep Learning:** PyTorch, transfer learning, CNNs (DenseNet121)
+- **Statistical Modeling:** Linear & Logistic Regression, OLS
+- **Model Evaluation:** Classification metrics, AUC-ROC, precision-recall, confusion matrices
+- **Data Handling:** Feature engineering, class imbalance (weighted loss), train-test splitting
+- **Model Validation:** Threshold optimization, cross-validation, assumption checks
+- **Interpretability:** GradCAM, coefficient analysis, residual diagnostics
   
 ## Projects
 
 | Project | Model Type | Focus | Highlights |
-|------|-----------|------|-----------|
-| [CO₂ Emissions (2009)](projects/co2-emissions-ols) | OLS Regression | Climate Analytics & Data Science | Assumption checks, log transforms |
-| [Books Read](projects/books-read-linear-regression) | Simple Linear Regression | Intro Modeling | Clear interpretation |
-| [Stroke Prediction](projects/stroke-prediction-logistic-regression) | Logistic Regression | Healthcare ML & Data Science | Class imbalance, recall optimization |
+|---------|-----------|-------|-----------|
+| [NIH Chest X-ray Classifier](projects/nih-chest-xray) | Deep Learning (DenseNet121) | Medical AI & Computer Vision | Multi-label classification, transfer learning, GradCAM interpretability |
+| [Stroke Prediction](projects/stroke-prediction-logistic-regression) | Logistic Regression | Healthcare ML & Data Science | Class imbalance, recall optimization, clinical screening |
+| [CO₂ Emissions (2009)](projects/co2-emissions-ols) | OLS Regression | Climate Analytics & Data Science | Assumption checks, log transforms, feature selection |
 | [Weather ML](projects/weather-ml) | Classification + Regression | Category Modeling | Multi-model comparison |
+| [Books Read](projects/books-read-linear-regression) | Simple Linear Regression | Intro Modeling | Clear interpretation, residual analysis |
